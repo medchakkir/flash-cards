@@ -24,11 +24,19 @@ A desktop application that helps you learn French vocabulary through interactive
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<username>/flash_cards.git
-cd flash_cards
+git clone https://github.com/<username>/flash-cards.git
+cd flash-cards
 ```
 
-2. Install the required dependencies:
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+venv\Scripts\activate # On Windows
+source venv/bin/activate # On macOS/Linux
+```
+
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -69,4 +77,4 @@ Feel free to submit issues and enhancement requests!
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is for educational purposes.
